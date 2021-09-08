@@ -6,7 +6,6 @@
           v-for="category in Object.keys(sampleData)"
           :key="category"
           v-slot="{ selected }"
-          as="template"
         >
           <button
             :class="[
