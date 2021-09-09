@@ -17,7 +17,7 @@
               text-indigo-800
               bg-indigo-300
               rounded-[6px]
-              hover:bg-indigo-300
+              hover:opacity-80
             "
           >
             <span> {{ data.question }}</span>

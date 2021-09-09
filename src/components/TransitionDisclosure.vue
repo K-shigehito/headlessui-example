@@ -17,7 +17,7 @@
               text-pink-800
               bg-pink-300
               rounded-[6px]
-              hover:bg-pink-300
+              hover:opacity-80
             "
           >
             <span> {{ data.question }}</span>
