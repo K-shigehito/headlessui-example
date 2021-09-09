@@ -11,7 +11,7 @@
             :class="[
               selected
                 ? 'bg-green-100 text-green-700'
-                : 'bg-green-100 text-green-500 opacity-50',
+                : 'bg-green-100 text-green-500 opacity-50 hover:opacity-70',
             ]"
             class="py-[6px] px-[24px] rounded-t-[4px] font-bold"
           >
