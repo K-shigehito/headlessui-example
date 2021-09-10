@@ -33,7 +33,7 @@
               <h3 class="mb-[4px] text-[16px] text-green-600 font-bold">
                 {{ detail.name }}
               </h3>
-              <p class="text-[12px] text-gray-700">
+              <p class="text-[14px] text-gray-700">
                 {{ detail.description }}
               </p>
             </li>
@@ -63,43 +63,37 @@ export default defineComponent({
       tabA: [
         {
           id: 1,
-          name: 'タイトルA-1',
-          description:
-            'ダミーテキストです。ダミーテキストです。ダミーテキストです。',
+          name: 'title A-1',
+          description: 'This is dummy text "A-1".',
         },
         {
           id: 2,
-          name: 'タイトルA-2',
-          description:
-            'ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。',
+          name: 'title A-2',
+          description: 'This is dummy text. "A-2"',
         },
       ],
       tabB: [
         {
           id: 1,
-          name: 'タイトルB-1',
-          description:
-            'ダミーテキストです。ダミーテキストです。ダミーテキストです。',
-        },
-        {
-          id: 2,
-          name: 'タイトルB-2',
-          description:
-            'ダミーテキストです。ダミーテキストです。ダミーテキストです。',
+          name: 'title B-1',
+          description: 'This is dummy text. "B-1"',
         },
       ],
       tabC: [
         {
           id: 1,
-          name: 'タイトルC-1',
-          description:
-            'ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。',
+          name: 'title C-1',
+          description: 'This is dummy text. "C-1"',
         },
         {
           id: 2,
-          name: 'タイトルC-2',
-          description:
-            'ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。ダミーテキストです。',
+          name: 'title C-2',
+          description: 'This is dummy text. "C-1"',
+        },
+        {
+          id: 3,
+          name: 'title C-3',
+          description: 'This is dummy text. "C-3"',
         },
       ],
     });
