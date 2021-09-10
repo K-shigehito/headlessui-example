@@ -16,7 +16,7 @@
       >
         <div class="flex max-w-xl mx-auto">
           <h2 class="text-2xl font-bold text-yellow-100">Dialog</h2>
-          <div class="ml-[24px]">
+          <div class="ml-[36px]">
             <BasicDialog />
           </div>
           <div class="ml-[12px]">
@@ -38,7 +38,7 @@
 
       <div
         class="
-          col-span-1
+          col-span-2
           bg-indigo-500
           px-[24px]
           pt-[18px]
@@ -47,21 +47,9 @@
         "
       >
         <div class="max-w-xl mx-auto">
-          <h2 class="text-2xl font-bold text-indigo-100">Basic Disclosure</h2>
-          <div class="mt-[18px]">
+          <h2 class="text-2xl font-bold text-indigo-100">Disclosure</h2>
+          <div class="flex gap-[24px] mt-[18px]">
             <BasicDisclosure />
-          </div>
-        </div>
-      </div>
-
-      <div
-        class="col-span-1 bg-pink-500 px-[24px] pt-[18px] pb-[30px] rounded-md"
-      >
-        <div class="max-w-xl mx-auto">
-          <h2 class="text-2xl font-bold text-pink-100">
-            Transition Disclosure
-          </h2>
-          <div class="mt-[18px]">
             <TransitionDisclosure />
           </div>
         </div>
