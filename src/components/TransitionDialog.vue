@@ -95,7 +95,7 @@
                 "
                 @click="setIsOpen(false)"
               >
-                close
+                Cancel
               </button>
             </div>
           </div>

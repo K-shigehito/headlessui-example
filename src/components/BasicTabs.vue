@@ -29,7 +29,11 @@
           ]"
         >
           <ul class="flex flex-col gap-[24px]">
-            <li v-for="detail in details" :key="detail.id">
+            <li
+              v-for="detail in details"
+              :key="detail.id"
+              class="bg-green-200 py-[6px] px-[12px] rounded-[3px]"
+            >
               <h3 class="mb-[4px] text-[16px] text-green-600 font-bold">
                 {{ detail.name }}
               </h3>
@@ -64,36 +68,36 @@ export default defineComponent({
         {
           id: 1,
           name: 'title A-1',
-          description: 'This is dummy text "A-1".',
+          description: 'This is dummy text.',
         },
         {
           id: 2,
           name: 'title A-2',
-          description: 'This is dummy text. "A-2"',
+          description: 'This is dummy text.',
         },
       ],
       tabB: [
         {
           id: 1,
           name: 'title B-1',
-          description: 'This is dummy text. "B-1"',
+          description: 'This is dummy text.',
         },
       ],
       tabC: [
         {
           id: 1,
           name: 'title C-1',
-          description: 'This is dummy text. "C-1"',
+          description: 'This is dummy text.',
         },
         {
           id: 2,
           name: 'title C-2',
-          description: 'This is dummy text. "C-1"',
+          description: 'This is dummy text.',
         },
         {
           id: 3,
           name: 'title C-3',
-          description: 'This is dummy text. "C-3"',
+          description: 'This is dummy text.',
         },
       ],
     });

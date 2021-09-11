@@ -66,7 +66,7 @@
             "
             @click="setIsOpen(false)"
           >
-            Deactivate
+            OK
           </button>
           <button
             class="
