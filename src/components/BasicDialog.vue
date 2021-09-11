@@ -1,23 +1,21 @@
 <template>
   <!-- オープンボタン -->
-  <div class="">
-    <button
-      type="button"
-      class="
-        px-[18px]
-        py-[8px]
-        font-bold
-        text-[16px] text-yellow-800
-        bg-yellow-100
-        shadow-sm
-        rounded-[6px]
-        hover:bg-opacity-70
-      "
-      @click="setIsOpen(true)"
-    >
-      Open
-    </button>
-  </div>
+  <button
+    type="button"
+    class="
+      px-[18px]
+      py-[8px]
+      font-bold
+      text-[16px] text-yellow-800
+      bg-yellow-100
+      shadow-sm
+      rounded-[6px]
+      hover:bg-opacity-70
+    "
+    @click="setIsOpen(true)"
+  >
+    Open
+  </button>
 
   <!-- ダイアログ -->
   <Dialog

@@ -20,8 +20,7 @@
   </div>
 
   <!-- ダイアログ -->
-  <!-- アニメーション -->
-  <TransitionRoot appear :show="isOpen" as="template">
+  <TransitionRoot :show="isOpen" as="template">
     <Dialog class="fixed inset-0 z-10 overflow-y-auto" @close="setIsOpen">
       <div class="flex items-center justify-center min-h-screen">
         <TransitionChild
